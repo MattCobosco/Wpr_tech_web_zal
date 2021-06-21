@@ -1,135 +1,124 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Karin Wiktor-Kałucka</title>
-  <link rel="icon" href="./images/favicon.png">
-  <link rel="stylesheet" media="(max-width: 768px)" href="style_max_768px.css" />
-  <link rel="stylesheet" media="(min-width: 768px) and (max-width: 991.98px)" href="style_min_768px.css" />
-  <link rel="stylesheet" media="(min-width: 992px)" href="style_min_992px.css" />
-  <link rel="stylesheet" media="(min-width: 1200px)" href="style_min_1200px.css" />
-  <script src="./scripts.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <main>
-    <header>
-      <div id="navigation_subpages">
-        <li class="nav_link nav_link_active">
-          <a href="main.html">Start</a>
-        </li>
-        <li class="nav_link nav_link_unactive">
-          <a href="activity.html">Działalność</a>
-        </li>
-        <li class="nav_link nav_link_unactive">
-          <a href="recordings.html">Nagrania</a>
-        </li>
-        <li class="nav_link nav_link_unactive">
-          <a href="#footer_social_div">Kontakt</a>
-        </li>
-      </div>
-      <div id="navigation_logo">
-        <a href="main.html">
-          <img class="main_logo" src="./images/logo_placeholder.jpg" alt="">
-        </a>
-      </div>
-      <div id="navigation_languages">
-        <li class="nav_link nav_link_active right_border_grey">
-          <a href="">PL</a>
-        </li>
-        <li class="nav_link nav_link_unactive right_border_grey">
-          <a href="">EN</a>
-        </li>
-        <li class="nav_link nav_link_unactive">
-          <a href="">RU</a>
-        </li>
-      </div>
-    </header>
-    <section id=activity_section>
-      <div class="header_styling" id="activity_section_header">
-        <h2>Działalność</h2>
-      </div>
-      <article class="header_styling justified_paragraph activity_paragraph" id="activity_pedagogical">
-        <h3>Pedagogiczna</h3>
-        <img class="activity_pic" src="https://picsum.photos/500">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus sed ut. Ipsa maxime eos assumenda
-          fugiat commodi perspiciatis minus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae fugit dolor aliquam voluptatum ad libero
-          expedita fuga voluptate id? Minus rerum sequi enim hic tempore ducimus, voluptate sit vero eos. Aut
-          consequuntur temporibus distinctio, rem labore dicta consectetur aspernatur.</p>
-      </article>
-      <article class="header_styling justified_paragraph activity_paragraph" id="activity_artistic">
-        <h3>Artystyczna</h3>
-        <img class="activity_pic" src="https://picsum.photos/500">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus sed ut. Ipsa maxime eos assumenda
-          fugiat commodi perspiciatis minus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae fugit dolor aliquam voluptatum ad libero
-          expedita fuga voluptate id? Minus rerum sequi enim hic tempore ducimus, voluptate sit vero eos. Aut
-          consequuntur temporibus distinctio, rem labore dicta consectetur aspernatur.</p>
-      </article>
-    </section>
-    <footer>
-      <div id="footer_social_div">
-        <h5>Kontakt</h5>
-        <ul id="footer_social_list">
-          <li class="footer_social_icon hover_grow">
-            <a href="http://www.facebook.com/profile.php?id=100018349564821" target="_blank">
-              <img src="./images/icons/icons8-facebook-96.png"></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karin Wiktor-Kałucka</title>
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="stylesheet" media="(max-width: 768px)"href="style_max_768px.css"/>
+    <link rel="stylesheet" media="(min-width: 768px) and (max-width: 991.98px)"href="style_min_768px.css"/>
+    <link rel="stylesheet" media="(min-width: 992px) and (max-width: 1199.98px)"href="style_min_992px.css"/>
+    <link rel="stylesheet" media="(min-width: 1200px)"href="style_min_1200px.css"/>
+    <script src="./scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="navigation_subpages">
+          <li class="nav_link nav_link_unactive">
+            <a href="main.html">Start</a>
           </li>
-          <li class="footer_social_icon hover_grow">
-            <a href="https://www.linkedin.com/in/karin-kałucka-7a195a192/" target="_blank">
-              <img src="./images/icons/icons8-linkedin-96.png"></a>
+          <li class="nav_link nav_link_active">
+            <a href="activity.html">Działalność</a>
           </li>
-          <li class="footer_social_icon hover_grow" id="contact_button">
-            <img src="./images/icons/icons8-mail-96.png" onClick="toggleContactForm()">
+          <li class="nav_link nav_link_unactive">
+            <a href="recordings.html">Nagrania</a>
           </li>
-        </ul>
-      </div>
-      <div id="contact_form_open">
-        <form action="/missing_javascript" method="post">
-          <ul>
-            <li>
-              <input type="text" id="name" name="user_name" placeholder="Imię">
+          <li class="nav_link nav_link_unactive">
+            <a href="#footer_social_div">Kontakt</a>
+          </li>
+        </div>
+        <div id="navigation_logo">
+          <a href="main.html">
+            <img class="main_logo" src="./images/logo_placeholder.jpg" alt="">
+          </a>
+        </div>
+        <div id="navigation_languages">
+          <li class="nav_link nav_link_active right_border_grey">
+            <a href="">PL</a>
+          </li>
+          <li class="nav_link nav_link_unactive right_border_grey">
+            <a href="">EN</a>
+          </li>
+          <li class="nav_link nav_link_unactive">
+             <a href="">RU</a>
+          </li>
+        </div>
+      </header>
+      <section id=activity_section>
+        <div class="header_styling" id="activity_section_header">
+          <h2>Działalność</h2>
+        </div>
+        <article class="header_styling justified_paragraph activity_paragraph" id="activity_pedagogical">
+          <h3>Pedagogiczna</h3>
+          <img class="activity_pic" src="https://picsum.photos/500">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus sed ut. Ipsa maxime eos assumenda fugiat commodi perspiciatis minus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae fugit dolor aliquam voluptatum ad libero expedita fuga voluptate id? Minus rerum sequi enim hic tempore ducimus, voluptate sit vero eos. Aut consequuntur temporibus distinctio, rem labore dicta consectetur aspernatur.</p>
+        </article>
+        <article class="header_styling justified_paragraph activity_paragraph" id="activity_artistic">
+          <h3>Artystyczna</h3>
+          <img class="activity_pic" src="https://picsum.photos/500">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus sed ut. Ipsa maxime eos assumenda fugiat commodi perspiciatis minus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae fugit dolor aliquam voluptatum ad libero expedita fuga voluptate id? Minus rerum sequi enim hic tempore ducimus, voluptate sit vero eos. Aut consequuntur temporibus distinctio, rem labore dicta consectetur aspernatur.</p>
+        </article>
+      </section>
+      <footer>
+        <div id="footer_social_div">
+          <h5>Kontakt</h5>
+          <ul id="footer_social_list">
+              <li class="footer_social_icon hover_grow">
+                <a href="http://www.facebook.com/profile.php?id=100018349564821" target="_blank">
+                <img src="./images/icons/icons8-facebook-96.png"></a>
+              </li>
+              <li class="footer_social_icon hover_grow">
+                <a href="https://www.linkedin.com/in/karin-kałucka-7a195a192/" target="_blank">
+                <img src="./images/icons/icons8-linkedin-96.png"></a>
+              </li>
+              <li class="footer_social_icon hover_grow" id="contact_button">
+                <img src="./images/icons/icons8-mail-96.png" onClick="toggleContactForm()">
+              </li>
+            </ul>
+          </div>
+          <div id="contact_form_open">
+            <form action="/missing_javascript" method="post">
+              <ul>
+                <li>
+                  <input type="text" id="name" name="user_name" placeholder="Imię">
+                </li>
+                <li>
+                  <input type="email" id="mail" name="user_email" placeholder="Adres e-mail">
+                </li>
+                <li>
+                  <textarea id="msg" name="user_message" placeholder="Treść wiadomości"></textarea>
+                </li>
+                <li class="form_button">
+                  <button type="submit">Wyślij</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div id="footer_links_div">
+            <li class="footer_link">
+              <a href="main.html">Start</a>
             </li>
-            <li>
-              <input type="email" id="mail" name="user_email" placeholder="Adres e-mail">
+            <li class="footer_link">
+              <a href="about.html">O mnie</a>
             </li>
-            <li>
-              <textarea id="msg" name="user_message" placeholder="Treść wiadomości"></textarea>
+            <li class="footer_link">
+              <a href="recordings.html">Nagrania</a>
             </li>
-            <li class="form_button">
-              <button type="submit">Wyślij</button>
-            </li>
-          </ul>
-        </form>
-      </div>
-      <div id="footer_links_div">
-        <li class="footer_link">
-          <a href="main.html">Start</a>
-        </li>
-        <li class="footer_link">
-          <a href="about.html">O mnie</a>
-        </li>
-        <li class="footer_link">
-          <a href="recordings.html">Nagrania</a>
-        </li>
-      </div>
-      <div class="footer_credits">
-        <p>©
-          <script>document.write(new Date().getFullYear())</script> Karin Wiktor-Kałucka
-        </p>
-      </div>
-      <div class="footer_credits">
-        <p>Designed by Mateusz Kałucki</p>
-        <a href="https://www.icons8.com">Icons from Icons8</a>
-      </div>
-    </footer>
-  </main>
-</body>
-
+          </div>
+          <div class="footer_credits">
+            <p>© <script>document.write(new Date().getFullYear())</script> Karin Wiktor-Kałucka</p>
+          </div>
+          <div class="footer_credits">
+            <p>Designed by Mateusz Kałucki</p>
+            <a href="https://www.icons8.com">Icons from Icons8</a>
+          </div>
+      </footer>
+    </main>
+  </body>
 </html>
