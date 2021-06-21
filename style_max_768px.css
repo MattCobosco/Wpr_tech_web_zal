@@ -16,12 +16,11 @@ header li {
     height: 60px; 
     line-height: 60px;
 }
-header img{
+.main_logo{
     position: absolute;
     left: 50%;
     margin-left: -75px
 }
-
 
 .nav_link{
     margin-left:2%;

@@ -7,30 +7,44 @@
     <title>Karin Wiktor-Kałucka</title>
     <link rel="icon" href="./images/favicon.png">
     <link rel="stylesheet" media="(max-width: 768px)"href="style_max_768px.css"/>
-    <link rel="stylesheet" media="(min-width: 768px)"href="style_min_768px.css"/>
+    <link rel="stylesheet" media="(min-width: 768px) and (max-width: 991.98px)"href="style_min_768px.css"/>
     <link rel="stylesheet" media="(min-width: 992px)"href="style_min_992px.css"/>
-    <link rel="stylesheet" media="(min-width: 1200px)"href="style_min_1200px.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
       <header>
-        <li class="nav_link nav_link_unactive">
-        <a href="main.html">Start</a>
-        </li>
-        <li class="nav_link nav_link_unactive">
-        <a href="about.html">O mnie</a>
-        </li>
-        <li class="nav_link nav_link_active">
-        <a href="recordings.html">Nagrania</a>
-        </li>
-        <li class="nav_link nav_link_unactive">
-        <a href="#footer_social_div">Kontakt</a>
-        </li>
-        <a href="main.html">
-          <img src="./images/logo_placeholder.jpg" alt="">
-        </a>
+        <div id="navigation_subpages">
+          <li class="nav_link nav_link_active">
+            <a href="main.html">Start</a>
+          </li>
+          <li class="nav_link nav_link_unactive">
+            <a href="something.html">Coś</a>
+          </li>
+          <li class="nav_link nav_link_unactive">
+            <a href="recordings.html">Nagrania</a>
+          </li>
+          <li class="nav_link nav_link_unactive">
+            <a href="#footer_social_div">Kontakt</a>
+          </li>
+        </div>
+        <div id="navigation_logo">
+          <a href="main.html">
+            <img class="main_logo" src="./images/logo_placeholder.jpg" alt="">
+          </a>
+        </div>
+        <div id="navigation_languages">
+          <li class="nav_link nav_link_active">
+            <a href="">PL</a>
+          </li>
+          <li class="nav_link nav_link_unactive">
+            <a href="">EN</a>
+          </li>
+          <li class="nav_link nav_link_unactive">
+            <a href="">RU</a>
+          </li>
+        </div>
       </header>
       <section id=recordings_section>
         <h3>Nagrania</h3>
