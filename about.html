@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karin Wiktor-Kałucka</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+        <header>
+            <li class="nav_link nav_link_unactive">
+                <a href="main.html">Start</a>
+            </li>
+            <li class="nav_link nav_link_active">
+                <a href="about.html">O mnie</a>
+            </li>
+            <li class="nav_link nav_link_unactive">
+                <a href="recordings.html">Nagrania</a>
+            </li>
+            <li class="nav_link nav_link_unactive">
+                <a href="#footer_social_div">Kontakt</a>
+            </li>
+            <a href="main.html">
+              <img src="./images/logo_placeholder.jpg" alt="">
+            </a>
+        </header>
+        <section id=about_section>
+            <h3>O mnie</h3>
+            <img src="./images/portrait.jpg">
+            <p>Dr Karin Wiktor-Kałucka ukończyła Akademię Muzyczną w Katowicach, swoje życie zawodowe związała z Operą Krakowską. W swoim repertuarze posiada blisko 40 ról operowych, operetkowych, musicalowych i partii solowych muzyki sakralnej, m.in.: Oscar w "Balu maskowym” G. Verdiego, Hrabina w "Weselu Figara” W. A. Mozarta, Pamina i Papagena w "Czarodziejskim flecie” W. A. Mozarta, Norina w "Don Pasquale” G. Donizettiego, Siebel w "Fauście” Ch. Gounoda, Micaela i Frasquita w "Carmen” G. Bizeta, Musetta w "Cyganerii” G. Pucciniego, Saffi w "Baronie cygańskim” J. Straussa, Ciesca w "Gianni Schicchi” G. Pucciniego. Na różnych etapach pracy zawodowej szkoliła swoje umiejętności wokalno-techniczne pod okiem wielu wybitnych śpiewaków i pedagogów. Byli to m. in.: Teresa Żylis-Gara, Helena Łazarska, Anna Kościelniak, Krystyna Tyburowska, Christian Elssner, Dariusz Grabowski czy Ryszard Karczykowski.<p>
+            <p>Poza Operą Krakowską współpracowała z Operą na zamku w Szczecinie, Teatrem Wielkim w Łodzi, Krakowską Operą Kameralną, Filharmonią Rzeszowską, Orkiestrą Straussowską, Krakowskim Zespołem Kameralnym.<p>
+            <p>W swojej działalności artystycznej pracowała z wieloma wybitnymi dyrygentami m.in.: Ewą Michnik, Marianem Lidą, Tadeuszem Kozłowskim, Andrzejem Straszyńskim, Antonim Witem, Kai Bumannem, Piotrem Sułkowskim, Tomaszem Tokarczykiem, Rafałem Delektą, Tomaszem Chmielem, Rollandem Baderem, Jackiem Bonieckim, Sebastianem Perłowskim, Warcisławem Kuncem oraz Vladimirem Kiradijewem. Występowała na scenach Niemiec, Belgii, Holandii, Słowacji, Szwajcarii i Anglii.<p>
+            <p>Poza aktywnością artystyczną prowadzi działalność pedagogiczną w Akademii Muzycznej w Krakowie i ZPSMuz w Krakowie. W roku 2019 obroniła pracę doktorską a tym samym otrzymała tytuł - Doktora Sztuki, w dziedzinie artystycznej: sztuki muzyczne. </p>
+        </section>
+        <footer>
+            <div id="footer_social_div">
+              <h5>Kontakt</h5>
+              <ul id="footer_social_list">
+                <li class="footer_social_icon hover_grow">
+                  <a href="http://www.facebook.com/profile.php?id=100018349564821" target="_blank">
+                  <img src="./images/icons/icons8-facebook-96.png"></a>
+                </li>
+                <li class="footer_social_icon hover_grow">
+                  <a href="https://www.linkedin.com/in/karin-kałucka-7a195a192/" target="_blank">
+                  <img src="./images/icons/icons8-linkedin-96.png"></a>
+                </li>
+                <li class="footer_social_icon hover_grow" id="contact_button">
+                  <img src="./images/icons/icons8-mail-96.png" onClick="toggleContactForm()">
+                </li>
+              </ul>
+            </div>
+            <div id="contact_form_open">
+              <script>
+                function toggleContactForm() {
+                  var x = document.getElementById("contact_form_open");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } 
+                  else {
+                    x.style.display = "block";
+                  }
+                }
+              </script>
+              <form action="/missing_javascript" method="post">
+                <ul>
+                  <li>
+                    <input type="text" id="name" name="user_name" placeholder="Imię">
+                  </li>
+                  <li>
+                    <input type="email" id="mail" name="user_email" placeholder="Adres e-mail">
+                  </li>
+                  <li>
+                    <textarea id="msg" name="user_message" placeholder="Treść wiadomości"></textarea>
+                  </li>
+                  <li class="form_button">
+                    <button type="submit">Wyślij</button>
+                  </li>
+                 </ul>
+              </form>
+            </div>
+            <div id="footer_links_div">
+              <li class="footer_link">
+                <a href="main.html">Start</a>
+              </li>
+              <li class="footer_link">
+                <a href="about.html">O mnie</a>
+              </li>
+              <li class="footer_link">
+                <a href="recordings.html">Nagrania</a>
+              </li>
+            </div>
+            <div class="footer_credits">
+              <p>© <script>document.write(new Date().getFullYear())</script> Karin Wiktor-Kałucka</p>
+            </div>
+            <div class="footer_credits">
+              <p>Designed by Mateusz Kałucki</p>
+              <a href="https://www.icons8.com">Icons from Icons8</a>
+            </div>
+          </footer>
+      </main>
+  </body>
+</html>
