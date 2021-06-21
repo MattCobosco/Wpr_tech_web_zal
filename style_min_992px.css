@@ -19,8 +19,6 @@ header{
     
 }
 #navigation_subpages li{
-    padding-left: 20px;
-    padding-right: 20px;
     height: 60px;
     width: 120px; 
     line-height: 60px;
@@ -45,10 +43,11 @@ header{
     height: 18px;
 }
 .main_logo{
+    height: 80%;
     position: absolute;
     left: 50%;
     margin-left: -75px;
-    top: 20px;
+    top: 10%;
 }
 
 .nav_link{
@@ -85,37 +84,30 @@ header{
 }
 
 
-#about_section {
+.header_styling {
     margin-bottom: 1%;
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 2%;
 }
-#about_section h3{
+.header_styling h2,h3{
     text-transform: uppercase;
     border-bottom: 1px solid #231f20;
     margin-left: 1.5%;
     margin-top: -1%;
 }
+.justified_paragraph p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 #about_section img{
     margin-right: 1%; 
     float:left;
     height:150px;
 }
-#about_section p{
-    text-justify: inter-word;
-}
 
-#recordings_section {
-    margin-bottom: 1%;
-    margin-left: 1%;
-}
-#recordings_section h3{
-    text-transform: uppercase;
-    margin-left:2.5%;
-    border-bottom: 1px solid #231f20;
-    margin-top: -1%;
-}
+
 #recordings_section p{
     margin-left:4%;
 }
@@ -127,6 +119,31 @@ header{
     display: flex;
     flex-direction: row;
     justify-content:center;
+}
+
+#activity_section{
+    display: grid;
+    grid-template-areas: 
+    "activity_header activity_header"
+    "pedagogical_article artistic_article";
+}
+#activity_section_header{
+    grid-area: activity_header;
+}
+#activity_pedagogical{
+    grid-area: pedagogical_article;
+}
+#activity_artistic{
+    grid-area: artistic_article;
+}
+.activity_pic{
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+.activity_paragraph p{
+    margin-left:7%;
+    margin-right:7%;
 }
 
 
@@ -166,7 +183,7 @@ footer{
     transition: all .2s ease-in-out; 
 }
 .hover_grow:hover { 
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 #footer_links_div{
     display: flex;
