@@ -8,56 +8,82 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 60px;
+}
+
+#nav_main {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-left: calc(-55%);
+    flex-direction: column;
+    width: 110%;
+    background-color: white;
+    padding-bottom: 10%;
 }
 
 #navigation_subpages {
+    background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    margin-left: 2%;
-    margin-right: -10%;
-    margin-top: 2%;
-    margin-bottom: 1%;
 }
 
 #navigation_subpages li {
-    padding-right: 5px;
-    padding-left: 5px;
     border-bottom: none;
     height: 60px;
     line-height: 60px;
     font-size: 12px;
     display: inline-block;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #navigation_languages {
+    background-color: white;
     display: flex;
     flex-direction: row;
+    position: absolute;
+    left: 50%;
+    margin-left: calc(-7%);
     margin-top: 1%;
-    margin-bottom: 1%;
-    margin-right: 2%;
-    height: 60px;
 }
 
 #navigation_languages li {
     position: relative;
     top: 2%;
     font-size: 12px;
-    margin-top: -6.5px;
     padding-left: 8px;
     padding-right: 8px;
     height: 18px;
+}
+
+.main_logo_toggle {
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: 1%;
+    height: 50px;
+    width: auto;
+}
+
+#menu_button {
+    margin: 2.5%;
+    margin-top: 20px;
+}
+
+#hamburger {
+    height: 26px;
 }
 
 .main_logo_undep {
     display: none;
 }
 
-.main_logo_between {}
+.main_logo_between {
+    display: none;
+}
 
 .nav_link {
     margin-left: 2%;
@@ -111,7 +137,7 @@ header {
 .justified_paragraph p {
     text-align: justify;
     text-justify: inter-word;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 #about_section img {
@@ -131,13 +157,17 @@ header {
 
 #recordings_playlists_div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+}
+
+.playlist_placeholder {
+    margin: 1%;
 }
 
 #activity_section {
     display: grid;
-    grid-template-areas: "activity_header activity_header" "pedagogical_article artistic_article";
+    grid-template-areas: "activity_header" "pedagogical_article" "artistic_article";
 }
 
 #activity_section_header {
@@ -154,13 +184,15 @@ header {
 
 .activity_pic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
+    width: 95%;
+    margin: auto;
 }
 
 .activity_paragraph p {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 12px;
 }
 
 footer {
@@ -184,16 +216,16 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 1%;
-    margin-bottom: -0.5%;
-    font-size: 18px;
+    margin-bottom: -1%;
+    font-size: 16px;
 }
 
 .footer_social_icon {
     list-style-type: none;
     padding: 0;
     margin-top: 0%;
-    margin: 0.5%;
-    margin-bottom: -1%;
+    margin: 1%;
+    margin-bottom: -0.5%;
 }
 
 .footer_social_icon img {
@@ -224,7 +256,8 @@ footer {
 
 .footer_link {
     list-style-type: none;
-    margin: 1%;
+    margin: 2%;
+    margin-bottom: 3%;
 }
 
 .footer_link a {
@@ -253,7 +286,7 @@ footer {
 
 .footer_credits p {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     margin: 0.5%;
     text-decoration: none;
@@ -267,7 +300,7 @@ footer {
 #contact_form_open form {
     color: white;
     margin: 0 auto;
-    width: 25%;
+    width: 75%;
     padding: 1em;
     border: 1px solid #D02E42;
 }
@@ -309,6 +342,6 @@ footer {
     padding-right: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
-    font-size: 16px;
+    font-size: 12px;
     ;
 }

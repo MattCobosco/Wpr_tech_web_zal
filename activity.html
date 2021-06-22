@@ -18,38 +18,49 @@
 <body>
   <main>
     <header>
-      <div id="navigation_subpages">
-        <li class="nav_link nav_link_unactive">
-          <a href="main.html">Start</a>
-        </li>
-        <li class="nav_link nav_link_active">
-          <a href="activity.html">Działalność</a>
-        </li>
-        <div>
-          <img class="main_logo_between" src="./images/logo_placeholder.jpg" alt="">
+      <div id=nav_main>
+        <div id="navigation_subpages">
+          <li class="nav_link nav_link_unactive">
+            <a href="main.html">Start</a>
+          </li>
+          <li class="nav_link nav_link_active">
+            <a href="activity.html">Działalność</a>
+          </li>
+          <div>
+            <img class="main_logo_between" src="./images/logo_placeholder.jpg" alt="">
+          </div>
+          <li class="nav_link nav_link_unactive">
+            <a href="recordings.html">Nagrania</a>
+          </li>
+          <li class="nav_link nav_link_unactive">
+            <a href="#footer_social_div">Kontakt</a>
+          </li>
         </div>
-        <li class="nav_link nav_link_unactive">
-          <a href="recordings.html">Nagrania</a>
-        </li>
-        <li class="nav_link nav_link_unactive">
-          <a href="#footer_social_div">Kontakt</a>
-        </li>
+        <div id="navigation_logo">
+          <a href="main.html">
+            <img class="main_logo_undep" src="./images/logo_placeholder.jpg" alt="">
+          </a>
+        </div>
+        <div id="navigation_languages">
+          <li class="nav_link nav_link_active right_border_grey">
+            <a href="">PL</a>
+          </li>
+          <li class="nav_link nav_link_unactive right_border_grey">
+            <a href="">EN</a>
+          </li>
+          <li class="nav_link nav_link_unactive">
+            <a href="">RU</a>
+          </li>
+        </div>
       </div>
-      <div id="navigation_logo">
+      <div id="navigation_toggle">
         <a href="main.html">
-          <img class="main_logo_undep" src="./images/logo_placeholder.jpg" alt="">
+          <img class="main_logo_toggle" src="./images/logo_placeholder.jpg" alt="">
         </a>
       </div>
-      <div id="navigation_languages">
-        <li class="nav_link nav_link_active right_border_grey">
-          <a href="">PL</a>
-        </li>
-        <li class="nav_link nav_link_unactive right_border_grey">
-          <a href="">EN</a>
-        </li>
-        <li class="nav_link nav_link_unactive">
-          <a href="">RU</a>
-        </li>
+      <div id="menu_button">
+        <input type="image" onClick="showNav()" id="hamburger" name="hamburger_btn" src="./images/hamburger.png"
+          alt="text">
       </div>
     </header>
     <section id=activity_section>
@@ -58,7 +69,7 @@
       </div>
       <article class="header_styling justified_paragraph activity_paragraph" id="activity_pedagogical">
         <h3>Pedagogiczna</h3>
-        <img class="activity_pic" src="https://picsum.photos/500">
+        <img class="activity_pic" src="https://picsum.photos/1000">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus sed ut. Ipsa maxime eos assumenda
           fugiat commodi perspiciatis minus.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae fugit dolor aliquam voluptatum ad libero
@@ -67,7 +78,7 @@
       </article>
       <article class="header_styling justified_paragraph activity_paragraph" id="activity_artistic">
         <h3>Artystyczna</h3>
-        <img class="activity_pic" src="https://picsum.photos/500">
+        <img class="activity_pic" src="https://picsum.photos/1000">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus sed ut. Ipsa maxime eos assumenda
           fugiat commodi perspiciatis minus.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae fugit dolor aliquam voluptatum ad libero

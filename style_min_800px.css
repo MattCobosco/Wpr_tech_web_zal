@@ -10,6 +10,14 @@ header {
     justify-content: space-between;
 }
 
+#nav_main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    %;
+}
+
 #navigation_subpages {
     display: flex;
     flex-direction: row;
@@ -17,7 +25,7 @@ header {
     width: 100%;
     margin-left: 2%;
     margin-right: -11%;
-    margin-top: 2%;
+    margin-top: 15px;
     margin-bottom: 1%;
 }
 
@@ -53,6 +61,10 @@ header {
     height: 18px;
 }
 
+#navigation_toggle {
+    display: none;
+}
+
 #menu_button {
     display: none;
 }
@@ -67,6 +79,10 @@ header {
 
 .main_logo_undep {
     display: none;
+}
+
+.main_logo_between {
+    margin-top: -5px;
 }
 
 .nav_link {
@@ -140,8 +156,11 @@ header {
 }
 
 #recordings_playlists_div {
-    display: flex;
+    display: grid;
+    grid-template-areas: "playlist1 playlist2" "playlist3 playlist4";
+    grid-gap: 15px;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -166,17 +185,21 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
+    width: 95%;
 }
 
 .activity_paragraph p {
     margin-left: 7%;
     margin-right: 7%;
+    font-size: 12px;
 }
 
 footer {
     display: flex;
     flex-direction: column;
     background-color: #231f20;
+    width: 100%;
 }
 
 #footer_social_list {
@@ -277,7 +300,7 @@ footer {
 #contact_form_open form {
     color: white;
     margin: 0 auto;
-    width: 25%;
+    width: 50%;
     padding: 1em;
     border: 1px solid #D02E42;
 }

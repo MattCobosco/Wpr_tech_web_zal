@@ -10,6 +10,12 @@ header {
     justify-content: space-between;
 }
 
+#nav_main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 #navigation_subpages {
     display: flex;
     flex-direction: row;
@@ -51,8 +57,13 @@ header {
     height: 18px;
 }
 
+#navigation_toggle {
+    display: none;
+}
+
 #menu_button {
     display: none;
+    width: 0;
 }
 
 #menu_dropdown {
