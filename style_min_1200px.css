@@ -51,6 +51,18 @@ header {
     height: 18px;
 }
 
+#menu_button {
+    display: none;
+}
+
+#menu_dropdown {
+    display: none;
+}
+
+#hamburger {
+    height: 32px;
+}
+
 .main_logo_undep {
     height: auto;
     position: relative;

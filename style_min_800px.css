@@ -53,11 +53,21 @@ header {
     height: 18px;
 }
 
-.main_logo_undep {
+#menu_button {
     display: none;
 }
 
-.main_logo_between {}
+#menu_dropdown {
+    display: none;
+}
+
+#hamburger {
+    height: 32px;
+}
+
+.main_logo_undep {
+    display: none;
+}
 
 .nav_link {
     margin-left: 2%;
@@ -184,8 +194,8 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 1%;
-    margin-bottom: -0.5%;
-    font-size: 18px;
+    margin-bottom: -1%;
+    font-size: 16px;
 }
 
 .footer_social_icon {
@@ -193,7 +203,7 @@ footer {
     padding: 0;
     margin-top: 0%;
     margin: 0.5%;
-    margin-bottom: -1%;
+    margin-bottom: -0.5%;
 }
 
 .footer_social_icon img {
@@ -253,7 +263,7 @@ footer {
 
 .footer_credits p {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     margin: 0.5%;
     text-decoration: none;
@@ -309,6 +319,6 @@ footer {
     padding-right: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
-    font-size: 16px;
+    font-size: 12px;
     ;
 }
