@@ -18,12 +18,13 @@ header {
     left: 50%;
     margin-left: calc(-55%);
     flex-direction: column;
-    width: 110%;
+    width: 105%;
     background-color: white;
     padding-bottom: 10%;
 }
 
 #navigation_subpages {
+    margin-left: 2%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -41,21 +42,21 @@ header {
 }
 
 #navigation_languages {
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    width: 250px;
     background-color: white;
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 50%;
-    margin-left: calc(-7%);
-    margin-top: 1%;
 }
 
 #navigation_languages li {
     position: relative;
     top: 2%;
     font-size: 12px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
     height: 18px;
 }
 
@@ -63,7 +64,7 @@ header {
     position: absolute;
     left: 50%;
     margin-left: -60px;
-    margin-top: 1%;
+    margin-top: 5px;
     height: 50px;
     width: auto;
 }
