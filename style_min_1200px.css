@@ -58,11 +58,11 @@ header {
     margin-left: -250px;
     top: 50%;
     margin-top: -40px;
-    height:75px;
+    height: 75px;
 }
 
-.main_logo_between{
-    display:none;
+.main_logo_between {
+    display: none;
 }
 
 .nav_link {
@@ -191,7 +191,7 @@ footer {
     letter-spacing: 1px;
     margin: 1%;
     margin-bottom: -0.5%;
-    font-size:18px;
+    font-size: 18px;
 }
 
 .footer_social_icon {
