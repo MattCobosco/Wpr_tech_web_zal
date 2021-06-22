@@ -185,6 +185,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 95%;
 }
 
 .activity_paragraph p {
@@ -296,6 +297,7 @@ footer {
 #contact_form_open form {
     color: white;
     margin: 0 auto;
+    margin-top: 1%;;
     width: 25%;
     padding: 1em;
     border: 1px solid #D02E42;
