@@ -160,8 +160,27 @@ header {
 
 #recordings_playlists_div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+}
+
+.playlist_div {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 20%;
+}
+.playlist_desc_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist_div h2 {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.playlist_div p {
+    font-size: 20px;
 }
 
 #activity_section {
@@ -297,7 +316,8 @@ footer {
 #contact_form_open form {
     color: white;
     margin: 0 auto;
-    margin-top: 1%;;
+    margin-top: 1%;
+    ;
     width: 25%;
     padding: 1em;
     border: 1px solid #D02E42;
