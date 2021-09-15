@@ -156,11 +156,30 @@ header {
 
 #recordings_playlists_div {
     display: grid;
-    grid-template-areas: "playlist1 playlist2" "playlist3 playlist4";
-    grid-gap: 15px;
+    grid-template-areas: "playlist1" "playlist2" "playlist3" "playlist4";
+    column-gap: 25px;
+    row-gap: 25px;
+    ;
+}
+
+.playlist_div {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+}
+
+.playlist_desc_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist_div h2 {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.playlist_div p {
+    font-size: 20px;
+    width: 95%;
 }
 
 #activity_section {
